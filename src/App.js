@@ -2,9 +2,42 @@ import "./App.css"
 
 function App() {
   return (
+<>
+    <div className="guess-grid">
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    <div className="tile"></div>
+    </div>
     <div data-keyboard className="keyboard">
         <button className="key" data-key="Q">Q</button>
-        <button className="key" data-key="W">W;</button>
+        <button className="key" data-key="W">W</button>
         <button className="key" data-key="E">E</button>
         <button className="key" data-key="R">R</button>
         <button className="key" data-key="T">T</button>
@@ -37,6 +70,7 @@ function App() {
       </svg></button>
         </div>
   
+</>
   );
 }
 
